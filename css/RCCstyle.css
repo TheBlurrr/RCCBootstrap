@@ -19,6 +19,12 @@ h3 {
 .col-md-6 {
     color: white;
 }
+#myCarousel {
+    min-height: 200px;
+}
+#carousel-inner {
+    text-align: center;
+}
 #nav {
     display: flex;
     display: 100%;

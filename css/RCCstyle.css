@@ -8,7 +8,7 @@
     box-sizing: border-box;
 }
 body {
-    background-color: #a8b2ff;
+    background-color: #8492ff;
 }
 h1 {
     color: #fc2a2a;
@@ -21,10 +21,10 @@ h1 {
 #black {
     color: black;
     text-shadow:
-    -1px -1px 0 #FFF,
-    1px -1px 0 #FFF,
-    -1px 1px 0 #FFF,
-    1px 1px 0 #FFF;
+    -0.33px -0.33px 0 #FFF,
+    0.33px -0.33px 0 #FFF,
+    -0.33px 0.33px 0 #FFF,
+    0.33px 0.33px 0 #FFF;
 }
 h3 {
     text-align: center;
@@ -33,12 +33,22 @@ h3 {
     max-width: 40%;
     max-height: 40%;
     margin: auto;
+    float: left;
 }
 .col-md-6 {
     color: white;
 }
 #navbar {
     margin: auto;
+}
+#navigation {
+    outline: 1px solid gray;
+}
+#Middle {
+    outline: 1px solid gray;
+}
+#Bottom {
+    outline: 1px solid gray;
 }
 #myCarousel {
     min-height: 200px;

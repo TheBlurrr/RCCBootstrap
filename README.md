@@ -1,6 +1,6 @@
 **Table of Contents** 
 
-- [Refrigeration Contracting Company Website](#refrigeration contracting company website)
+- [Refrigeration Contracting Company Website](#refrigeration-contracting-company-website)
 	- [Description](#description)
 	- [What is Included](#what-is-included)
 	- [Dependencies](#dependencies)

@@ -72,9 +72,12 @@ header{
 }
 
 /** Classes **/
+.navbar-brand{
+    padding: 0px;
+}
+
 .logo {
-    max-width: 40%;
-    max-height: 40%;
+    max-height: 100%;
     margin: auto;
     float: left;
 }

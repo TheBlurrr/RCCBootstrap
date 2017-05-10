@@ -12,7 +12,7 @@
 
 ## Description
 
-A portfolio site for Udacity Projects in the Full-Stack Nandegree using Responsive HTML and CSS
+A Company Website for Refrigeration Contracting Company using Responsive HTML and CSS
 
 ## What is Included
 

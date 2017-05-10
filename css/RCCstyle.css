@@ -1,6 +1,11 @@
-/** {
-    border: 1px solid red !important;
-}*/
+/***************************
+filename: RCCstyle.css
+
+description: style for refrigerationcontracting.com
+author: Jonathan Alvarado, Aron Roberts
+date: 5/10/2017
+***************************/
+
 
 /** Default Tags **/
 * {
@@ -8,6 +13,7 @@
     -moz-box-sizing: border-box;
     -ms-box-sizing: border-box;
     box-sizing: border-box;
+    /* border: 1px solid red !important; */
 }
 
 body {

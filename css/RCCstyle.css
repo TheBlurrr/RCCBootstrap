@@ -82,10 +82,6 @@ header{
     float: left;
 }
 
-.navbar-custom {
-    padding: 20px;
-    float:right;
-}
 .col-md-6 {
     color: white;
 }
@@ -158,16 +154,37 @@ header{
 }
 
 /** ID **/
-#navbar {
-    margin: auto;
+
+#rcc-navbar-collapse{
+
+}
+
+#carousel{
+
 }
 
 #myCarousel {
     min-height: 200px;
 }
+
 #carousel-inner {
     text-align: center;
 }
+
+#about{
+
+}
+
+#contact{
+
+}
+
+#navbar {
+    margin: auto;
+}
+
+
+/* should be single class that sets img margin to auto */
 #hvac {
     margin: auto;
 }
@@ -179,18 +196,4 @@ header{
 }
 #const {
     margin: auto;
-}
-#nav {
-    display: flex;
-    display: 100%;
-    text-align: center;
-}
-#Home {
-    width: 33.3%;
-}
-#Company {
-    width: 33.3%;
-}
-#Service {
-    width: 33.3%;
 }

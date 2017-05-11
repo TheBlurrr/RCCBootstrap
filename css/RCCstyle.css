@@ -52,7 +52,13 @@ section.section-top {
   section {
     padding: 75px 0;
   }
+}
 
+@media (max-width: 767px) {
+  .row .col-md-4 {
+  margin-left: 15px;
+  margin-right: 15px;
+  }
 }
 footer {
   color: white;

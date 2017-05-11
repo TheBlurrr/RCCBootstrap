@@ -21,8 +21,8 @@ body {
     color:white;
 }
 
+h2,
 h1 {
-    color:white;
     font-family: 'Quicksand', sans-serif;
 }
 
@@ -31,7 +31,7 @@ h3 {
 }
 
 section {
-    padding: 100px 0;
+    padding: 100px;
     background-color: #2C3E50;
 }
 
@@ -154,10 +154,10 @@ header{
 
 .outline-white {
         text-shadow:
-    -1px -1px 0 #FFF,
-    1px -1px 0 #FFF,
-    -1px 1px 0 #FFF,
-    1px 1px 0 #FFF;
+    -0.3px -0.3px 0 #FFF,
+    0.3px -0.3px 0 #FFF,
+    -0.3px 0.3px 0 #FFF,
+    0.3px 0.3px 0 #FFF;
 }
 
 /** ID **/

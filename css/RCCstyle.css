@@ -21,6 +21,15 @@ body {
     color:white;
 }
 
+@media (max-width: 350px) {
+   h1.title {
+    padding: 0px;
+  }
+  div.byline {
+    padding-top: 50px;
+  }
+}
+
 h2,
 h1 {
     font-family: 'Quicksand', sans-serif;
@@ -60,6 +69,8 @@ section.section-top {
   margin-right: 15px;
   }
 }
+
+
 footer {
   color: white;
 }

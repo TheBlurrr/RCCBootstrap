@@ -39,17 +39,17 @@ section h2 {
     margin: 0;
     font-size: 3em;
 }
-section.section_white{
+section.section-white{
     background: #FFF;
     color: black;
 }
 
-section.section_top {
+section.section-top {
     padding-top: 0px;
 }
 
 @media (max-width: 767px) {
-  section.section_top {
+  section {
     padding: 75px 0;
   }
 
@@ -110,8 +110,25 @@ header{
 .btn-outline:active,
 .btn-outline.active {
   color: #67a0fc;
-  background: white;
+  background: white ;
   border: solid 2px white;
+}
+
+.custom-pill-btn {
+  color: white;
+  font-size: 20px;
+  border: solid 2px white;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  margin-top: 15px;
+}
+
+.custom-pill a:hover,
+.custom-pill a:focus,
+.custom-pill a:active,
+.custom-pill a.active{
+  color: white;
+  background: #67a0fc !important;
 }
 
 .btn-social {
@@ -160,6 +177,16 @@ header{
     0.3px 0.3px 0 #FFF;
 }
 
+.google-map{
+    width:1400px;
+    height:400px;
+}
+
+.byline{
+    margin-top: -50px;
+    padding-top: 0px;
+    padding-bottom:50px;
+}
 /** ID **/
 
 #rcc-navbar-collapse{
